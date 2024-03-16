@@ -11,8 +11,12 @@ class DiscordNews:
         self.feed = feed
 
     def prepare_and_notify(self):
-        for entry in self.feed.entries:
+        reversed_entry = reversed(self.feed.entries)
+        for entry in reversed_entry:
             self.__notify_to_discord_channel(entry)
+
+    def notify(self, data):
+        self.__notify_to_discord_channel(data)
 
     # this is where you can customize the message that will be sent on you server
     def __notify_to_discord_channel(self, data):
@@ -25,7 +29,7 @@ class DiscordNews:
         
 **{data.title}** 
 
-{format_date}
+🗓 {format_date}
 
 {data.link}
         
