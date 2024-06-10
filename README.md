@@ -7,7 +7,7 @@ This script allow you to connect to an RSS feed, and every times it actualising,
 
 - Python 3.6 or higher
 
-### Setps
+### Steps
 
 1. Clone this repo :
 
@@ -16,13 +16,18 @@ This script allow you to connect to an RSS feed, and every times it actualising,
     cd discord-rss
     ```
 
-2. For Linux/macOS :
+2. Go in main.py and specifie :
+    - The webhook bot url
+    - The name of the bot
+    - The url of the rss feed
+
+3. For Linux/macOS :
 
     ```sh
     ./setup.sh
     ```
 
-3. For Windows :
+4. For Windows :
 
     ```bat
     setup.bat
