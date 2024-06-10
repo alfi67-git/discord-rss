@@ -8,7 +8,7 @@ webhooks_feeds = [
         "webhook": "URL of the webhook here",
         "username": "Name of your bot here",
         "avatar_url": "",
-        "feed_url": "URL of the RSS feed"
+        "feed_url": "URL of the RSS feed here"
     }
 ]
 
