@@ -5,10 +5,10 @@ import time
 # this is a list where you specify the link, the name and the avatar of your webhook, you also specify what feed to use
 webhooks_feeds = [
     {
-        "webhook": "https://discordapp.com/api/webhooks/1217435713088393236/T29fAhJ-fz7Nd8fQJgLMvYiZhTXqmke-TIn7C7Oc-VK6EkhL1r0viFblaZpaovqeBsPG",
-        "username": "UNISTRA News",
+        "webhook": "URL of the webhook here",
+        "username": "Name of your bot here",
         "avatar_url": "",
-        "feed_url": "https://www.unistra.fr/actualites-unistra?type=100"
+        "feed_url": "URL of the RSS feed"
     }
 ]
 
