@@ -11,9 +11,8 @@ class DiscordNews:
         self.feed = feed
 
     def prepare_and_notify(self):
-        reversed_entry = reversed(self.feed.entries)
-        for entry in reversed_entry:
-            self.__notify_to_discord_channel(entry)
+        latest_entry = self.feed.entries[0] #get the last entry
+        self.__notify_to_discord_channel(latest_entry)
 
     def notify(self, data):
         self.__notify_to_discord_channel(data)
